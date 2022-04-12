@@ -46,7 +46,7 @@ def Save_Data(name, data):
 
 symbol = 'BTCUSD'
 date_from = dt.datetime(year=2022, month=1, day=1, tzinfo=pytz.timezone("Etc/UTC"))
-date_to = dt.datetime(year=2022, month=2, day=1, tzinfo=pytz.timezone("Etc/UTC"))
+date_to = dt.datetime(year=2022, month=1, day=5, tzinfo=pytz.timezone("Etc/UTC"))
 
 
 filename = f'Tick_Data/{symbol}/{date_from.month}-{date_to.month}_ticks'
